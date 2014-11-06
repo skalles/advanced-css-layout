@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Refactor Shane Loann</title>
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="module.css">
     <link rel="stylesheet" href="state.css">
     <link rel="stylesheet" href="theme.css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <header class="container sixteen columns">
-      <section>
-          <img src="images/cf_logo.png">
-          <div>
-            <input type="search">
-            <button><input type="button"></button>
-          </div>
-        <nav>
-          <ul>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Video</a></li>
-            <li><a href="#">Links</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+     <section class="widget">
+        <img class="widget__img" src="images/CodeFellows.png">
+        <nav class="widget-nav">
+          <a href="#">About</a>
+          <a href="#">Instructors</a>
+          <a href="#">Courses</a>
+          <a href="#">Schedules</a>
+          <a href="#">Contact</a>
         </nav>
+        <form>
+          <input class="widget__input" type="search" placeholder="search">
+          <button type="submit">submit</button>
+        </form>
       </section>
     </header>
     <body>
