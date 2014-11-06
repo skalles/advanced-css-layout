@@ -19,15 +19,14 @@ video {
 /******   logo ********/
 
 .widget {
- display: flex;
- flex-direction: row;
- justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-
 .header__img {
- width: 350px;
- display: block;
- margin: 0 auto;
+  width: 350px;
+  display: block;
+  margin: 0 auto;
 }
 
 /****** search ********/
@@ -37,31 +36,30 @@ form {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  width: 39.04%;
-  margin: 5% 5%;
+  /*width: 39.04%;*/
+  /*margin: 5% 5%;*/
 }
-
 .header__input {
- padding: 0 5%;
- width: 100px;
- border: 1px solid gray;
+  padding: 3% 2%;
+  width: 200px;
+  border: 1px solid gray;
 }
 
 /******   NAVIGATION   ********/
 
 nav {
- margin: 0 8%;
- display: flex;
- flex-direction: row;
- justify-content: center;
+  margin: 0 8% 7% 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 nav a {
- padding: 0 5%;
- flex-basis: auto;
- flex-grow: 1;
- color:black;
- text-transform: uppercase;
- text-decoration: none;
+  padding: 0 5%;
+  flex-basis: auto;
+  flex-grow: 1;
+  color:black;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 /**** Main ****/
@@ -112,22 +110,31 @@ section {
 .subpost h2 {
   padding-left: 2%;
 }
-
-/**** Footer ****/
-/*
-footer ul {
-  display: inline-block;
-  margin-left: 6%;
+.comments {
+  height:auto;
+  margin: 1% auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
-footer li {
-  display: inline-block;
-  padding-left: 1%;
+.comments-img {
+  min-width: 80px;
+  height: 80px;
+  margin-right: 2%;
+  border: 1px solid silver;
 }
-footer aside {
-  background-color: gray;
-  float: right;
-  margin-top: 1%;
-  margin-right: 5%;
-}*/
-
-
+.comments-display {
+  border: 1px solid silver;
+  padding: 1%;
+  font-size: .7em;
+}
+.comments-response li {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.comments-response a {
+  color: black;
+  text-decoration: none;
+}
