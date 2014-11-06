@@ -1,0 +1,95 @@
+button {
+  color: white;
+  background-color: red;
+  border-radius: 15px;
+  padding: 1.5% 2%;
+}
+button a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+.widget {
+  background-color: black;
+}
+.widget h1 {
+  color: white;
+  padding-left: 2%;
+}
+.post {
+  background-color: white;
+  margin-left: 2%;
+}
+.post h1 {
+  color: black;
+}
+.post time {
+  padding-left: 2%;
+}
+.post p {
+  margin-left: 2%;
+}
+.post figure {
+  float: right;
+}
+.post figcaption {
+  font-size: 9px;
+  text-align: center;
+}
+.post button {
+  margin: 1% 2%;
+}
+.subpost {
+  background-color: white;
+  width: 96%;
+  margin: 2% calc(50% - 48%);
+  padding: 2% 0;
+}
+.subpost h2 {
+  padding-left: 2%;
+}
+video {
+  width: 100%;
+}
+footer ul {
+  display: inline-block;
+  margin-left: 6%;
+}
+footer li {
+  display: inline-block;
+  padding-left: 1%;
+}
+footer aside {
+  /*display: inline-block;*/
+  background-color: gray;
+  float: right;
+  margin-top: 1%;
+  margin-right: 5%;
+}
+nav {
+
+}
+a {
+
+}
+p {
+
+}
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+article {
+  width: 96%;
+  margin: 2% calc(50% - 48%);
+  padding: 1% 0;
+}
+section {
+  width: 100%;
+}
