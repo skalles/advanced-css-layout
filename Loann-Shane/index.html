@@ -10,27 +10,34 @@
     <link rel="stylesheet" href="theme.css">
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+    <link href='http://weloveiconfonts.com/api/?family=fontawesome' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <header class="container sixteen columns">
-     <section class="widget">
-        <img class="widget__img" src="images/CodeFellows.png">
-        <nav class="widget-nav">
-          <a href="#">About</a>
+    <header>
+     <section>
+        <img class="header__img" src="images/CodeFellows.png">
+        <form>
+          <input class="header__input" type="search" placeholder="search">
+          <button class="fontawesome-search" type="submit"></button>
+        </form>
+      </section>
+      <section>
+        <nav>
+          <span class="fontawesome-heart"></span><a href="#">About</a>
+          <span class="fontawesome-group"></span>
           <a href="#">Instructors</a>
+          <span class="fontawesome-desktop"></span>
           <a href="#">Courses</a>
+          <span class="fontawesome-calendar"></span>
           <a href="#">Schedules</a>
+          <span class="fontawesome-comments"></span>
           <a href="#">Contact</a>
         </nav>
-        <form>
-          <input class="widget__input" type="search" placeholder="search">
-          <button type="submit">submit</button>
-        </form>
       </section>
     </header>
     <body>
       <main class="container">
-        <section class="widget two-thirds column">
+        <section class="widgets two-thirds column">
           <h1>UX Front-End Dev Blog Roll</h1>
           <article class="post">
             <time datetime="2014-11-04">November 4, 2014</time>
@@ -39,7 +46,7 @@
               <img src="images/boxdim.png">
               <figcaption>Your basic box model</figcaption>
             </figure>
-            <p class="clearfix">At the risk of over-repeating myself: every element in web design is a rectangular box. This was my ah-ha moment that helped me really start to understand CSS-based web design and accomplish the layouts I wanted to accomplish. We've talked about the positioning of these boxes a bit, and about their behavior.</p>
+            <p>At the risk of over-repeating myself: every element in web design is a rectangular box. This was my ah-ha moment that helped me really start to understand CSS-based web design and accomplish the layouts I wanted to accomplish. We've talked about the positioning of these boxes a bit, and about their behavior.</p>
             <button><a href="#">Read More</a></button>
           </article>
           <article class="post">
@@ -79,7 +86,7 @@
       </main>
     </body>
     <footer>
-      <section>
+   <!--    <section>
         <ul>
           <li><a href="#">Privacy</a></li>
           <li><a href="#">Terms &amp; Conditions</a></li>
@@ -91,7 +98,7 @@
           <img src="images/twitter-transparent.gif">
           <img src="images/linkedin.png">
         </aside>
-      </seciton>
+      </seciton> -->
     </footer>
     <script>
       !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");

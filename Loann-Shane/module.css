@@ -1,3 +1,5 @@
+/**** General ****/
+
 button {
   color: white;
   background-color: red;
@@ -10,16 +12,77 @@ button a {
   text-transform: uppercase;
   text-align: center;
 }
+video {
+  width: 100%;
+}
+
+/******   logo ********/
+
 .widget {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.header__img {
+ width: 350px;
+ display: block;
+ margin: 0 auto;
+}
+
+/****** search ********/
+
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 39.04%;
+  margin: 5% 5%;
+}
+
+.header__input {
+ padding: 0 5%;
+ width: 100px;
+ border: 1px solid gray;
+}
+
+/******   NAVIGATION   ********/
+
+nav {
+ margin: 0 8%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+nav a {
+ padding: 0 5%;
+ flex-basis: auto;
+ flex-grow: 1;
+ color:black;
+ text-transform: uppercase;
+ text-decoration: none;
+}
+
+/**** Main ****/
+article {
+  width: 96%;
+  margin: 2% calc(50% - 48%);
+  padding: 1% 0;
+}
+section {
+  width: 100%;
+}
+.widgets {
   background-color: white;
 }
-.widget h1 {
+.widgets h1 {
   color: black;
   padding-left: 2%;
 }
 .post {
+  border: 1px solid black;
   background-color: white;
-  margin-left: 2%;
 }
 .post h1 {
   color: black;
@@ -49,9 +112,9 @@ button a {
 .subpost h2 {
   padding-left: 2%;
 }
-video {
-  width: 100%;
-}
+
+/**** Footer ****/
+/*
 footer ul {
   display: inline-block;
   margin-left: 6%;
@@ -61,170 +124,10 @@ footer li {
   padding-left: 1%;
 }
 footer aside {
-  /*display: inline-block;*/
   background-color: gray;
   float: right;
   margin-top: 1%;
   margin-right: 5%;
-}
-nav {
-
-}
-a {
-
-}
-p {
-
-}
-h1 {
-
-}
-h2 {
-
-}
-h3 {
-
-}
-article {
-  width: 96%;
-  margin: 2% calc(50% - 48%);
-  padding: 1% 0;
-}
-section {
-  width: 100%;
-}
+}*/
 
 
-/**** Loann Code ****/
-*{
--webkit-box-sizing:border-box;
--moz-box-sizing:border-box;
--ms-box-sizing:border-box;
-box-sizing:border-box}
-
-/******   BASE STYLES  ********/
-
-body {
-font-family: 'Oswald', sans-serif;
-}
-
-a, a:visited {
-  text-decoration: underline;
-}
-
-a:hover, a.on {
-  color: red;
-  text-decoration: underline;
-}
-}
-
-/******   HEADER  ********/
-
-.widget {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.widget__img {
-  width: 350px;
-  display: block;
-  margin: 0 auto;
-}
-
-form {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 39.04%;
-  margin: 5% 5%;
-}
-
-.widget__input {
-  padding: 0 5%;
-  width:200px;
-  border: 1px solid gray;
-}
-
-.widget__input--btn {
-
-}
-
-/******   NAVIGATION   ********/
-
-.widget-nav {
-  margin: 0 8%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-nav a {
-  padding: 0 5%;
-  flex-basis: auto;
-  flex-grow: 1;
-  color:black;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-/****** BLOG POSTS  ********/
-
-.article-roll {
-  display:block;
-  background-color: blue;
-}
-
-.article-roll__blog-post {
-  font-style: normal;
-
-}
-.article-roll__blog-post img {
-
-}
-
-/******   ASIDES  ********/
-
-.media {
-display: inline-block;
-
-}
-
-.twitter-timeline {
-display: inline-block;
-}
-
-.video {
-display: inline-block;
-}
-
-
-/*  GRID OF EIGHT  */
-
-.span_3_of_5 {
-    width: 55%;
-}
-.span_2_of_5 {
-    width: 38%;
-}
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
-@media only screen and (max-width: 480px) {
-  .col {
-    margin: 1% 0 1% 0%;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-
-  .span_8_of_8 {
-    width: 100%;
-  }
-  .span_5_of_8 {
-    width: 100%;
-  }
-  .span_3_of_8 {
-    width: 100%;
-  }
-}
