@@ -1,16 +1,24 @@
 /**** General ****/
 
+/**** Can this go into base?? LL made changes ****/
+
+
 button {
-  color: white;
-  background-color: red;
-  border-radius: 15px;
-  padding: 1.5% 2%;
-}
+  border:none;
+  border-radius: .25em;
+  padding: 1% 2%;
+  }
+
+/**** Can this go into base?? LL made changes ****/
+
 button a {
-  color: white;
+  font-size: .8em;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
+}
+video {
+  width: 100%;
 }
 
 /******   logo ********/
@@ -20,30 +28,62 @@ button a {
   flex-direction: row;
   justify-content: center;
 }
-.header__img {
+
+/**Header__Logo and Logo img LL made changes **/
+
+.header__logo {
+  margin-bottom: 3%;
+}
+
+.header__logo img {
   width: 350px;
   display: block;
   margin: 0 auto;
 }
 
-/****** search ********/
+/****** search and email input ********/
+
+/** Made changes to all inputs
+Can FORM go into BASE?? **/
 
 
 form {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin-bottom: 5%;
 }
-.header__input {
-  padding: 3% 2%;
-  width: 200px;
-  border: 1px solid gray;
+
+.search__input {
+  width:100%;
+  margin-right: .7em;
+  color:crimson;
+  padding: 2%;
+}
+
+.email__input {
+  width:100%;
+  margin-right: .7em;
+  border: 1px solid silver;
+  padding: 2%;
+}
+
+/** button icon style **/
+
+.fontawesome-search,
+.fontawesome-envelope {
+  font-size: 1.5em;
+  color:crimson;
+  background-color: transparent;
 }
 
 /******   NAVIGATION   ********/
 
+/** LL made changes **/
+
+
 nav {
-  margin: 0 8% 7% 8%;
+  margin: 0 10% 7% 8%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -57,63 +97,64 @@ nav a {
   text-decoration: none;
 }
 
-/**** Main ****/
-article {
-  width: 96%;
-  margin: 2% calc(50% - 48%);
-  padding: 1% 0;
+/** LL added **/
+
+/*span {
+  width:1em;
+}*/
+/** LL added **/
+
+time {
+  color:gray;
 }
-section {
-  width: 100%;
-}
-aside {
-  background-color: red;
-}
-.widgets {
+
+.blog-post {
+  margin-bottom:1%;
+  padding: 3%;
+  border: 1px solid silver;
   background-color: white;
 }
-.widgets h1 {
-  color: black;
+.blog-post h1 {
+color: black;
+margin-left: 1.5%;
+}
+.blog-post time {
   padding-left: 2%;
 }
-.post {
-  border: 1px solid black;
-  background-color: white;
-}
-.post h1 {
-  color: black;
-}
-.post time {
-  padding-left: 2%;
-}
-.post p {
+.blog-post p {
   margin-left: 2%;
 }
-.post figure {
+.blog-post figure {
   float: right;
 }
-.post figcaption {
+.blog-post figcaption {
   font-size: 9px;
   text-align: center;
 }
-.post button {
+
+/**** NEW post button ****/
+
+.post-btn {
   margin: 1% 2%;
+  background-color: crimson;
 }
-.subpost {
-  background-color: white;
-  width: 96%;
-  margin: 2% calc(50% - 48%);
-  padding: 2% 0;
+.post-btn a {
+  color: white;
 }
-.subpost h2 {
+
+/**** NEW post button ****/
+
+.media  h2 {
   padding-left: 2%;
 }
 .comments {
   height:auto;
-  margin: 1% auto;
+  margin-bottom:1%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  border: 1px solid silver;
+  padding: 1em;
 }
 .comments-img {
   min-width: 80px;
@@ -122,10 +163,16 @@ aside {
   border: 1px solid silver;
 }
 .comments-display {
-  border: 1px solid silver;
-  padding: 1%;
+  padding-bottom: 1%;
   font-size: .7em;
+  font-style: light;
 }
+
+.comments h5 {
+font-size: .7em;
+color: crimson;
+}
+
 .comments-response li {
   margin: 0 auto;
   display: flex;
