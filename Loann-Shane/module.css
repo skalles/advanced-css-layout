@@ -172,7 +172,6 @@ margin-left: 1.5%;
 font-size: .7em;
 color: crimson;
 }
-
 .comments-response li {
   margin: 0 auto;
   display: flex;
@@ -182,4 +181,7 @@ color: crimson;
 .comments-response a {
   color: black;
   text-decoration: none;
+}
+aside {
+  padding: 0 1%;
 }
