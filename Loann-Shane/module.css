@@ -12,9 +12,6 @@ button a {
   text-transform: uppercase;
   text-align: center;
 }
-video {
-  width: 100%;
-}
 
 /******   logo ********/
 
@@ -36,8 +33,6 @@ form {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  /*width: 39.04%;*/
-  /*margin: 5% 5%;*/
 }
 .header__input {
   padding: 3% 2%;
@@ -70,6 +65,9 @@ article {
 }
 section {
   width: 100%;
+}
+aside {
+  background-color: red;
 }
 .widgets {
   background-color: white;

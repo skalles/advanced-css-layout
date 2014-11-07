@@ -1,8 +1,6 @@
-a,
 a:visited {
   text-decoration: underline;
 }
-
 a:hover,
 a.on {
   color: red;
