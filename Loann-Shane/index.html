@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Refactor Shane Loann</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="layouts2.css">
+    <link rel="stylesheet" href="module.css">
+    <link rel="stylesheet" href="state.css">
+    <link rel="stylesheet" href="theme.css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://weloveiconfonts.com/api/?family=fontawesome' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header>
+     <section class="header__logo">
+        <img src="images/CodeFellows.png">
+      </section>
+      <section>
+        <nav>
+          <span class="fontawesome-heart"></span>
+          <a href="#">About</a>
+          <span class="fontawesome-group"></span>
+          <a href="#">Instructors</a>
+          <span class="fontawesome-desktop"></span>
+          <a href="#">Courses</a>
+          <span class="fontawesome-calendar"></span>
+          <a href="#">Schedules</a>
+          <span class="fontawesome-comments"></span>
+          <a href="#">Contact</a>
+        </nav>
+      </section>
+    </header>
+    <body>
+      <main class="section">
+      <section class="blog col span_3_of_5">
+          <article class="blog-post">
+            <time datetime="2014-11-04">November 4, 2014</time>
+            <h1>The Box Model</h1>
+            <figure>
+              <img src="images/boxdim.png">
+              <figcaption>Your basic box model</figcaption>
+            </figure>
+            <p>At the risk of over-repeating myself: every element in web design is a rectangular box. This was my ah-ha moment that helped me really start to understand CSS-based web design and accomplish the layouts I wanted to accomplish. We've talked about the positioning of these boxes a bit, and about their behavior.</p>
+            <button class="post-btn"><a href="#">Read More</a></button>
+          </article>
+          <article class="blog-post">
+            <time datetime="2014-11-04">November 4, 2014</time>
+            <h1>New Flexbox</h1>
+            <figure>
+              <img src="images/flex1.jpg">
+              <figcaption>Flexbox is a quick and easy tool.</figcaption>
+            </figure>
+            <p>Flexbox is a new layout mode in CSS3 that is designed for the more sophisticated needs of the modern web. This article will describe the newly-stablized Flexbox syntax in technical detail. Browser support is going to grow quickly, so you’ll be ahead of the game when support is wide enough for Flexbox to be practical. Read on if you want to know what it does and how it works!</p>
+            <button class="post-btn"><a href="#">Read More</a></button>
+          </article>
+          <article class="blog-post">
+            <time datetime="2014-11-04">November 4, 2014</time>
+            <h1>ARIA: Know Your Role</h1>
+            <figure>
+              <img src="images/aria-5.png">
+              <figcaption>Accessiblity with ARIA</figcaption>
+            </figure>
+            <p>If you can use a native HTML element or attribute with the semantics and behavior you require already built in, instead of re-purposing an element and adding an ARIA role, state or property to make it accessible, then do so. As part of the Web Accessibility Initiative (WAI), the Accessible Rich Internet Applications Suite (ARIA), defines a way to make Web content and Web applications more accessible. It is used to improve the accessibility of dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies.</p>
+            <button class="post-btn"><a href="#">Read More</a></button>
+          </article>
+        </section>
+        </main>
+
+        <aside class="media col span_2_of_5">
+            <form class="search">
+              <input class="search__input" type="search" placeholder="search">
+              <button class="fontawesome-search" type="submit"></button>
+            </form>
+            <form class="email">
+              <input class="email__input" type="email" pattern=".+" name="email"placeholder="email" autofocus>
+              <button class="fontawesome-envelope" type="submit"></button>
+            </form>
+          <section class="subpost">
+            <h2>Featured Video</h2>
+            <video poster="images/dale.jpg" controls="">
+              <source src="sass-video.mp4" type="video/mp4">
+              <p>This browser does not support the video element.</p>
+            </video>
+          </section>
+          <section class="subpost">
+            <h2>Follow Us On Twitter <a href="#">@CodeFellowsOrg</a></h2>
+            <a class="twitter-timeline" href="https://twitter.com/CodeFellowsOrg/favorites" data-widget-id="530201768429240320">Favorite Tweets by @CodeFellowsOrg</a>
+          </section>
+
+          <section class="comments-roll col">
+          <section class="comments">
+            <img class="comments-img" src="images/9096264.jpg"/>
+            <footnote class="comments-display">
+              <h5 class"comments-user">Wendy @Codefellow</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </footnote>
+          </section>
+
+          <section class="comments">
+            <img class="comments-img" src="images/7749139.jpg"/>
+            <footnote class="comments-display">
+              <h5 class"comments-user">Galen @Codefellow</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </footnote>
+          </section>
+
+          <section class="comments">
+            <img class="comments-img" src="images/8335515.jpg"/>
+            <footnote class="comments-display">
+              <h5 class"comments-user">Shane @Codefellow</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </footnote>
+          </section>
+        </section>
+        </aside>
+      </div>
+
+    </body>
+    <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    </script>
+  </body>
+</html>

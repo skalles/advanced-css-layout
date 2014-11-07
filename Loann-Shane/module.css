@@ -1,0 +1,185 @@
+/**** General ****/
+
+/**** Can this go into base?? LL made changes ****/
+
+
+button {
+  border:none;
+  border-radius: .25em;
+  padding: 1% 2%;
+  }
+
+/**** Can this go into base?? LL made changes ****/
+
+button a {
+  font-size: .8em;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+video {
+  width: 100%;
+}
+
+/******   logo ********/
+
+.widget {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/**Header__Logo and Logo img LL made changes **/
+
+.header__logo {
+  margin-bottom: 3%;
+}
+
+.header__logo img {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
+/****** search and email input ********/
+
+/** Made changes to all inputs
+Can FORM go into BASE?? **/
+
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 5%;
+}
+
+.search__input {
+  width:100%;
+  margin-right: .7em;
+  color:crimson;
+  padding: 2%;
+}
+
+.email__input {
+  width:100%;
+  margin-right: .7em;
+  border: 1px solid silver;
+  padding: 2%;
+}
+
+/** button icon style **/
+
+.fontawesome-search,
+.fontawesome-envelope {
+  font-size: 1.5em;
+  color:crimson;
+  background-color: transparent;
+}
+
+/******   NAVIGATION   ********/
+
+/** LL made changes **/
+
+
+nav {
+  margin: 0 10% 7% 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+nav a {
+  padding: 0 5%;
+  flex-basis: auto;
+  flex-grow: 1;
+  color:black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/** LL added **/
+
+/*span {
+  width:1em;
+}*/
+/** LL added **/
+
+time {
+  color:gray;
+}
+
+.blog-post {
+  margin-bottom:1%;
+  padding: 3%;
+  border: 1px solid silver;
+  background-color: white;
+}
+.blog-post h1 {
+color: black;
+margin-left: 1.5%;
+}
+.blog-post time {
+  padding-left: 2%;
+}
+.blog-post p {
+  margin-left: 2%;
+}
+.blog-post figure {
+  float: right;
+}
+.blog-post figcaption {
+  font-size: 9px;
+  text-align: center;
+}
+
+/**** NEW post button ****/
+
+.post-btn {
+  margin: 1% 2%;
+  background-color: crimson;
+}
+.post-btn a {
+  color: white;
+}
+
+/**** NEW post button ****/
+
+.media  h2 {
+  padding-left: 2%;
+}
+.comments {
+  height:auto;
+  margin-bottom:1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid silver;
+  padding: 1em;
+}
+.comments-img {
+  min-width: 80px;
+  height: 80px;
+  margin-right: 2%;
+  border: 1px solid silver;
+}
+.comments-display {
+  padding-bottom: 1%;
+  font-size: .7em;
+  font-style: light;
+}
+
+.comments h5 {
+font-size: .7em;
+color: crimson;
+}
+
+.comments-response li {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.comments-response a {
+  color: black;
+  text-decoration: none;
+}
