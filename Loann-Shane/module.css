@@ -1,16 +1,8 @@
-/**** General ****/
-
-/**** Can this go into base?? LL made changes ****/
-
-
 button {
-  border:none;
+  border: none;
   border-radius: .25em;
   padding: 1% 2%;
-  }
-
-/**** Can this go into base?? LL made changes ****/
-
+}
 button a {
   font-size: .8em;
   text-decoration: none;
@@ -34,7 +26,6 @@ video {
 .header__logo {
   margin-bottom: 3%;
 }
-
 .header__logo img {
   width: 350px;
   display: block;
@@ -53,16 +44,14 @@ form {
   justify-content: flex-start;
   margin-bottom: 5%;
 }
-
 .search__input {
-  width:100%;
+  width: 100%;
   margin-right: .7em;
-  color:crimson;
+  color: crimson;
   padding: 2%;
 }
-
 .email__input {
-  width:100%;
+  width: 100%;
   margin-right: .7em;
   border: 1px solid silver;
   padding: 2%;
@@ -73,14 +62,11 @@ form {
 .fontawesome-search,
 .fontawesome-envelope {
   font-size: 1.5em;
-  color:crimson;
+  color: crimson;
   background-color: transparent;
 }
 
 /******   NAVIGATION   ********/
-
-/** LL made changes **/
-
 
 nav {
   margin: 0 10% 7% 8%;
@@ -96,20 +82,11 @@ nav a {
   text-transform: uppercase;
   text-decoration: none;
 }
-
-/** LL added **/
-
-/*span {
-  width:1em;
-}*/
-/** LL added **/
-
 time {
-  color:gray;
+  color: gray;
 }
-
 .blog-post {
-  margin-bottom:1%;
+  margin-bottom: 1%;
   padding: 3%;
   border: 1px solid silver;
   background-color: white;
@@ -148,8 +125,8 @@ margin-left: 1.5%;
   padding-left: 2%;
 }
 .comments {
-  height:auto;
-  margin-bottom:1%;
+  height: auto;
+  margin-bottom: 1%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -167,7 +144,6 @@ margin-left: 1.5%;
   font-size: .7em;
   font-style: light;
 }
-
 .comments h5 {
 font-size: .7em;
 color: crimson;
