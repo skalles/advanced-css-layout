@@ -47,19 +47,17 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .span_5_of_5 {
-    width: 100%;
-  }
-  .span_4_of_5 {
-    width: 100%;
-  }
   .span_3_of_5 {
     width: 100%;
   }
   .span_2_of_5 {
     width: 100%;
   }
-  .span_1_of_5 {
-    width: 100%;
+  nav ul {
+    flex-basis: 43%;
+    flex-direction: column;
+  }
+  nav li {
+    font-size: 1.5em;
   }
 }

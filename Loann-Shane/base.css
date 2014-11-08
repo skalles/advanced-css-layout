@@ -57,6 +57,10 @@ input[type="search"]::-webkit-search-decoration {
 input[type="email"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+ul {
+  -webkit-padding-start: 0;
+}
+
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
