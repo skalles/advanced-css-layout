@@ -31,33 +31,29 @@
 }
 
 /*  GRID OF FIVE  */
+
+.span_3_of_5 {
+  width: 100%;
+  }
+  .span_2_of_5 {
+  width: 100%;
+  }
+
+ /* Must be at least 480px wide to get these rules */
+
+@media screen and (min-width: 480px) {
+
+.col {
+  margin: 1% 0 1% 0%;
+}
+
+@media only screen and (min-width: 480px) {
+
 .span_3_of_5 {
   width: 58%;
 }
+
 .span_2_of_5 {
   width: 39.04%;
 }
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
-@media only screen and (min-width: 480px) {
-  .col {
-    margin: 1% 0 1% 0%;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .span_3_of_5 {
-    width: 100%;
-  }
-  .span_2_of_5 {
-    width: 100%;
-  }
-  nav ul {
-    flex-basis: 43%;
-    flex-direction: column;
-  }
-  nav li {
-    font-size: 1.5em;
-  }
 }
