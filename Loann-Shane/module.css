@@ -38,10 +38,6 @@ h2 {
 
 /****** search and email input ********/
 
-/** Made changes to all inputs
-Can FORM go into BASE?? **/
-
-
 form {
   display: flex;
   flex-direction: row;
@@ -77,45 +73,20 @@ nav {
   justify-content: center;
   margin-bottom: 2%;
 }
-
 nav ul {
   list-style-type: none;
   flex-direction: column;
   }
-
 nav li {
   padding-left: 10%;
   font-size: 1.25em;
 }
-
 nav a {
   padding: 0 15%;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
 }
-
-/*nav {
-  display: flex;
-  justify-content: center;
-}
-nav a {
-  padding: 0 5%;
-  color:black;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-nav ul {
-  display: flex;
-}
-nav li {
-  align-content: space-between;
-  flex-direction: row;
-  justify-content: center;
-  display: block;
-  padding: 0 2%;
-}*/
-
 time {
   color: gray;
 }
@@ -127,14 +98,7 @@ time {
 }
 .blog-post h1 {
   color: black;
-/*  margin-left: 1.5%;*/
 }
-.blog-post time {
-/*  padding-left: 2%;*/
-}
-/*.blog-post p {
-  margin-left: 2%;
-}*/
 .blog-img img{
 display: block;
 width: 150px;
@@ -165,7 +129,6 @@ left: calc(100% - 100px/2);
   margin-bottom: 1%;
   display: flex;
   flex-direction: row;
- /* justify-content: flex-start;*/
   border: 1px solid silver;
   padding: 1em;
 }
@@ -198,7 +161,6 @@ aside {
   padding: 0 1%;
 }
 footer {
-  margin-left: 0;
   background-color: gray;
   width: 100%;
 }

@@ -27,33 +27,33 @@
   clear: both;
 }
 .group {
-    zoom: 1; /* For IE 6/7 */
+  zoom: 1; /* For IE 6/7 */
 }
 
 /*  GRID OF FIVE  */
 
 .span_3_of_5 {
   width: 100%;
-  }
-  .span_2_of_5 {
+}
+.span_2_of_5 {
   width: 100%;
-  }
+}
 
  /* Must be at least 480px wide to get these rules */
 
 @media screen and (min-width: 480px) {
 
-.col {
-  margin: 1% 0 1% 0%;
+  .col {
+    margin: 1% 0 1% 0%;
+  }
 }
 
 @media only screen and (min-width: 480px) {
 
-.span_3_of_5 {
-  width: 58%;
-}
-
-.span_2_of_5 {
-  width: 39.04%;
-}
+  .span_3_of_5 {
+    width: 58%;
+  }
+  .span_2_of_5 {
+    width: 39.04%;
+  }
 }
