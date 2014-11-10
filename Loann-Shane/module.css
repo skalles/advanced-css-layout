@@ -193,3 +193,23 @@ color: crimson;
 aside {
   padding: 0 1%;
 }
+footer {
+  background-color: gray;
+  width: 100%;
+  margin: 0 0;
+}
+footer ul {
+  margin: 1% 2%;
+}
+footer li {
+  margin: 1% 2%;
+  display: inline-block;
+}
+footer aside {
+  text-align: right;
+  padding: 1% 0;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
