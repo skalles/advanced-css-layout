@@ -10,7 +10,11 @@ button a {
   text-align: center;
 }
 video {
+  display: none;
   width: 100%;
+}
+h2 {
+  display: none;
 }
 
 /******   logo ********/
@@ -132,7 +136,7 @@ time {
   margin-left: 2%;
 }*/
 .blog-img img{
-display:block;
+display: block;
 width: 150px;
 margin: 0 auto;
 left: calc(100% - 100px/2);
@@ -194,22 +198,70 @@ aside {
   padding: 0 1%;
 }
 footer {
+  margin-left: 0;
   background-color: gray;
   width: 100%;
-  margin: 0 0;
-}
-footer ul {
-  margin: 1% 2%;
-}
-footer li {
-  margin: 1% 2%;
-  display: inline-block;
-}
-footer aside {
-  text-align: right;
-  padding: 1% 0;
 }
 footer a {
   color: white;
   text-decoration: none;
+}
+footer li {
+  text-align: center;
+  width: 100%;
+  margin: 1% 2%;
+  display: block;
+}
+footer aside {
+  text-align: center;
+}
+
+@media only screen and (min-width: 480px) {
+
+  video {
+    display: inline-block;
+  }
+  h2 {
+    display: inline-block;
+  }
+  figure {
+    padding-left: 3%;
+    float: right;
+    margin: 1% auto;
+    left: calc(100% - 100px/2);
+  }
+  footer {
+    background-color: gray;
+    width: 100%;
+  }
+  footer ul {
+    margin: 1% ;
+  }
+  footer li {
+    margin: 1% 2%;
+    display: inline;
+  }
+  footer aside {
+    text-align: right;
+    padding-top: .5%;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  nav a {
+    padding: 0 5%;
+    color: black;
+    text-transform: uppercase;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  nav li {
+    align-content: space-between;
+    justify-content: center;
+    display: inline-block;
+    padding: 0 2%;
+  }
 }
